@@ -1,0 +1,28 @@
+
+.footer-paragraph {
+    width:40%;
+}
+
+.footer-menu ul {
+    list-style: none; 
+}
+.footer-menu a {
+    text-decoration: none;
+}
+
+.footer-links ul {
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+}
+
+.footer-links li {
+    margin-left: -1.9rem;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
