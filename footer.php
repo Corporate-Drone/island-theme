@@ -1,10 +1,7 @@
 <footer class="footer">
 <div>
   <!-- Footer -->
-  <footer
-          class="text-white"
-          style="background-color: #3e4551"
-          >
+  <footer>
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Links -->
@@ -30,33 +27,14 @@
                        <!-- Section: Social media -->
       <section class="ml-0 d-flex justify-content-start footer-socials">
           <h5 class="me-2">Follow Us</h5>
-        <!-- Facebook -->
-        <a
-           class="btn btn-outline-light btn-floating m-1"
-           href="#!"
-           role="button"
-           ><i class="fab fa-facebook-f"></i
-          ></a>
-
-        <!-- Twitter -->
-        <a
-           class="btn btn-outline-light btn-floating m-1"
-           href="#!"
-           role="button"
-           ><i class="fab fa-twitter"></i
-          ></a>
-
-        <!-- Instagram -->
-        <a
-           class="btn btn-outline-light btn-floating m-1"
-           href="#!"
-           role="button"
-           ><i class="fab fa-instagram"></i
-          ></a>
+          <div>
+            <?php 
+                if( is_active_sidebar( 'social-media') ){
+                    dynamic_sidebar( 'social-media' );
+                }
+            ?>
+        </div>
       </section>
-      <!-- Section: Social media -->
-
-    
           </div>
           <!--Grid column-->
 
@@ -71,7 +49,7 @@
       <!-- Section: CTA -->
       <section class="">
         <p class="d-flex justify-content-center align-items-center">
-          <button type="button" class="btn btn-outline-light btn-rounded">
+          <button type="button" class="btn btn-outline-dark btn-rounded">
             Book a trip
           </button>
         </p>
