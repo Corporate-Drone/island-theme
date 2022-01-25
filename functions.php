@@ -47,7 +47,7 @@ function taniti_sidebars(){
 			'name' => __( 'Info 1 Picture', 'taniti' ),
 			'id' => 'info-1-picture',
 			'description' => __( 'First Island Picture. ', 'taniti' ),
-			'before_widget' => '<div class="home-info-picture">',
+			'before_widget' => '<div class="info-picture">',
 			'after_widget' => '</div>',
 			'before_title' => '<h2 class="picture-title">',
 			'after_title' => '</h2>'
@@ -59,7 +59,7 @@ function taniti_sidebars(){
 			'name' => __( 'Info 1 Text', 'taniti' ),
 			'id' => 'info-1-text',
 			'description' => __( 'First Island Info Area. ', 'taniti' ),
-			'before_widget' => '<div class="home-info-text d-flex justify-content-center align-items-center flex-column">',
+			'before_widget' => '<div class="info-text d-flex justify-content-center align-items-center flex-column">',
 			'after_widget' => '</div>',
 			'before_title' => '<h2 class="info-title">',
 			'after_title' => '</h2>'
@@ -71,7 +71,7 @@ function taniti_sidebars(){
 			'name' => __( 'Info 2 Picture', 'taniti' ),
 			'id' => 'info-2-picture',
 			'description' => __( 'Second Island Picture. ', 'taniti' ),
-			'before_widget' => '<div class="home-info-picture">',
+			'before_widget' => '<div class="info-picture">',
 			'after_widget' => '</div>',
 			'before_title' => '<h2 class="picture-title">',
 			'after_title' => '</h2>'
@@ -83,7 +83,7 @@ function taniti_sidebars(){
 			'name' => __( 'Info 2 Text', 'taniti' ),
 			'id' => 'info-2-text',
 			'description' => __( 'Second Island Info Area. ', 'taniti' ),
-			'before_widget' => '<div class="home-info-text d-flex justify-content-center align-items-center flex-column">',
+			'before_widget' => '<div class="info-text d-flex justify-content-center align-items-center flex-column">',
 			'after_widget' => '</div>',
 			'before_title' => '<h2 class="info-title">',
 			'after_title' => '</h2>'
@@ -95,7 +95,7 @@ function taniti_sidebars(){
 			'name' => __( 'Info 3 Picture', 'taniti' ),
 			'id' => 'info-3-picture',
 			'description' => __( 'Second Island Picture. ', 'taniti' ),
-			'before_widget' => '<div class="home-info-picture">',
+			'before_widget' => '<div class="info-picture">',
 			'after_widget' => '</div>',
 			'before_title' => '<h2 class="picture-title">',
 			'after_title' => '</h2>'
@@ -107,7 +107,7 @@ function taniti_sidebars(){
 			'name' => __( 'Info 3 Text', 'taniti' ),
 			'id' => 'info-3-text',
 			'description' => __( 'Second Island Info Area. ', 'taniti' ),
-			'before_widget' => '<div class="home-info-text d-flex justify-content-center align-items-center flex-column">',
+			'before_widget' => '<div class="info-text d-flex justify-content-center align-items-center flex-column">',
 			'after_widget' => '</div>',
 			'before_title' => '<h2 class="info-title">',
 			'after_title' => '</h2>'

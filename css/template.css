@@ -1,12 +1,23 @@
+/************** FONTS *****************/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=KoHo&family=Permanent+Marker&display=swap');
+
+.home, .travel, .stay, .experiences, .faq, .footer, .header {
+    font-family: 'KoHo', sans-serif;
+}
+
+/************** HOME PAGE *****************/
 .home {
     height: 100%;
 }
+
+/************** Island Info Widget *****************/
 .info-container-left {
     display: flex;
     position: relative;
     flex-direction: row-reverse;
     height: 700px;
-    border: 1px solid blue;
     margin-bottom: 5rem;
 }
 
@@ -14,11 +25,10 @@
     display: flex;
     position: relative;
     height: 700px;
-    border: 1px solid green;
     margin-bottom: 5rem;
 }
 
-.home-info-picture {
+.info-picture {
     position: relative;
     background-color: #F2F2F2;
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
@@ -28,7 +38,7 @@
     margin: 2rem;
 }
 
-.home-info-picture img {
+.info-picture img {
     position: absolute;
     top: 25px;
     left: 0;
@@ -36,7 +46,6 @@
     margin: auto;
     width: 90%;
     height: 50%;
-    
 }
 
 .picture-title {
@@ -44,13 +53,49 @@
     bottom: 7%;
     left: 50%;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+    font-family: 'Permanent Marker', cursive;
 }
 
-.home-info-text {
+.info-text {
     width: 1500px;
 }
 
+@media only screen and (max-width: 1200px) {
+    .info-container-left {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-container-right {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-picture {
+        width: 300px;
+        height: 400px;
+    }
+
+    .info-text {
+        width: 500px;
+        text-align: justify;
+    }
+
+    .picture-title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .info-text {
+        width: 300px;
+    }
+}
+
+/************** FOOTER *****************/
 .footer {
     background-color: #F2F2F2;
 }
@@ -81,4 +126,3 @@
     color: black;
     text-decoration: none;
 }
-
