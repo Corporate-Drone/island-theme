@@ -1,6 +1,11 @@
 <?php
 get_header(); 
 ?>
+    <div class="home-header">
+        <?php
+			echo do_shortcode('[smartslider3 slider="2"]');
+		?>
+</div>
     <div class="container w-80 home">
         <div class="info-container-left">
             <?php 
@@ -38,5 +43,10 @@ get_header();
 			    }
 		    ?>
         </div>
+    </div>
+    <div class="home-footer-image">
+        <?php
+		    echo do_shortcode('[smartslider3 slider="3"]');
+		?>
     </div>
 <?php get_footer(); ?>
