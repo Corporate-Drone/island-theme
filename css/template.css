@@ -7,6 +7,11 @@
     font-family: 'KoHo', sans-serif;
 }
 
+/************** Header/Navbar *****************/
+#menu-item-34 {
+    font-weight: bold; 
+} 
+
 /************** HOME PAGE *****************/
 .home {
     height: 100%;
