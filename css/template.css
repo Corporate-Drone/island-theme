@@ -8,9 +8,33 @@
 }
 
 /************** Header/Navbar *****************/
-#menu-item-34 {
-    font-weight: bold; 
-} 
+.collapse ul li a span {
+color: #0078D5;
+}
+
+.navbar-brand {
+    color: #0078D5 !important;
+    font-weight: bold;
+}
+
+#menu-item-38 {
+    /* color: #ffffff !important; */
+    /* background-color: #0078D5; */
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #0078D5;
+}
+
+#menu-item-38:hover {
+    transition: 0.05s;
+    box-shadow: 0px 0px 10px 2px rgba(0,120,213,0.3);
+}
+
+@media only screen and (max-width: 575px) {
+    #menu-item-38 {
+        width: 90px;
+    }
+}
 
 /************** HOME PAGE *****************/
 .home {
