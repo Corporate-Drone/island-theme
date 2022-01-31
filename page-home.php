@@ -6,7 +6,7 @@ get_header();
 			echo do_shortcode('[smartslider3 slider="2"]');
 		?>
 </div>
-    <div class="container w-80 home">
+    <div class="container w-80 home info-container">
         <div class="info-container-left">
             <?php 
 		    if( is_active_sidebar( 'info-1-picture' ) ){
@@ -44,6 +44,7 @@ get_header();
 		    ?>
         </div>
     </div>
+
     <div class="home-footer-image">
         <?php
 		    echo do_shortcode('[smartslider3 slider="3"]');

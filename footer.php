@@ -7,7 +7,7 @@
       <!-- Section: Links -->
       <section class="">
         <!--Grid row-->
-        <h4 class="text-uppercase">Taniti</h4>
+        <h4 class="text-uppercase fw-bold">Taniti</h4>
         <div class="row d-flex justify-content-between">
           <!--Grid column-->
           <div class="col-lg-4 col-md-6 mb-4 mb-md-0">   

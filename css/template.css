@@ -7,9 +7,13 @@
     font-family: 'KoHo', sans-serif;
 }
 
-/************** Header/Navbar *****************/
+/************** Navbar *****************/
 .collapse ul li a span {
 color: #0078D5;
+}
+
+.active {
+    font-weight: bold;
 }
 
 .navbar-brand {
@@ -45,18 +49,22 @@ color: #0078D5;
 @media only screen and (max-width: 1200px) {
     .home-header p {
         display: none;
-    }
-    
+    } 
 }
 
 /* make header font smaller */
 @media only screen and (max-width: 768px) {
     #n2-ss-2item2 {
-        font-size: 24px !important;
+        font-size: 26px !important;
+        width: 265px !important;
     }
 }
 
 /************** Island Info Widget *****************/
+.info-container {
+    margin-top: 10rem;
+}
+
 .info-container-left {
     display: flex;
     position: relative;
@@ -106,6 +114,10 @@ color: #0078D5;
 }
 
 @media only screen and (max-width: 1200px) {
+    .info-container {
+        margin-top: 1rem;
+    }
+
     .info-container-left {
         flex-direction: column;
         justify-content: center;
@@ -137,6 +149,11 @@ color: #0078D5;
     .info-text {
         width: 300px;
     }
+}
+
+/************** FAQ *****************/
+.faq h1 {
+    font-size: 3rem;
 }
 
 /************** FOOTER *****************/
