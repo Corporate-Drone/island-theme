@@ -90,7 +90,7 @@ color: #0078D5;
     margin: 2rem;
 }
 
-.info-picture img {
+/* .info-picture img {
     position: absolute;
     top: 25px;
     left: 0;
@@ -98,11 +98,23 @@ color: #0078D5;
     margin: auto;
     width: 90%;
     height: 50%;
+} */
+
+.info-picture img {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 75%;
 }
 
 .picture-title {
     position: absolute;
     bottom: 7%;
+    width: 100%;
+    text-align: center;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -141,7 +153,13 @@ color: #0078D5;
     }
 
     .picture-title {
+        width: 100%;
         font-size: 24px;
+        text-align: center;
+    }
+
+    .info-picture img {
+        height: 65%;
     }
 }
 

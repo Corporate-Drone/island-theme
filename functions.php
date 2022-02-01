@@ -24,6 +24,7 @@ function taniti_config(){
 			'footer_menu' => 'Footer Menu'
 		)
 	);
+
 }
 add_action( 'after_setup_theme', 'taniti_config', 0 );
 
