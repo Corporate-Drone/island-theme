@@ -13,7 +13,7 @@
         <h2 class="picture-title">
             <?php the_post_thumbnail_caption(); ?>
         </h2>
-        <?php the_post_thumbnail( 'large', array( 'class' => 'test' ) ); ?>
+        <?php the_post_thumbnail( 'large', array( 'class' => 'info-image' ) ); ?>
 	</div>
     <div class="info-text d-flex justify-content-center align-items-center flex-column">
 	    <h2 class="info-title fw-bold">

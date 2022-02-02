@@ -6,13 +6,13 @@ get_header();
 		echo do_shortcode('[smartslider3 slider="2"]');
 	?>
 </div>
-<div class="container travel w-80">
+<div class="container experiences w-80">
     <?php
 		$args = array(
 			'post_type' => 'post',
 			'posts_per_page' => 6,
-            'category__not_in' => array( 6, 11, 12 ),
-			'category__in' => array( 8,9,10)
+            'category__not_in' => array( 6, 9, 11 ),
+			'category__in' => array( 8,12,10)
 		);
 
 		$travel = new WP_Query( $args );

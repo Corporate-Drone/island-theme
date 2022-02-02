@@ -6,44 +6,31 @@ get_header();
 			echo do_shortcode('[smartslider3 slider="2"]');
 		?>
 </div>
+
+	<?php
+		$args = array(
+			'post_type' => 'post',
+			'posts_per_page' => 6,
+            'category__not_in' => array( 9, 11, 12 ),
+			'category__in' => array( 6, 8, 10)
+		);
+
+		$travel = new WP_Query( $args );
+
+		if( $travel->have_posts() ):
+			while( $travel->have_posts() ): 
+				$travel->the_post();
+	?>
+
     <div class="container w-80 home info-container">
-        <div class="info-container-left">
-            <?php 
-		    if( is_active_sidebar( 'info-1-picture' ) ){
-			    dynamic_sidebar( 'info-1-picture' );
-			    }
-		    ?>
-            <?php 
-		    if( is_active_sidebar( 'info-1-text' ) ){
-			    dynamic_sidebar( 'info-1-text' );
-			    }
-		    ?>
-        </div>
-        <div class="info-container-right">
-        <?php 
-		    if( is_active_sidebar( 'info-2-picture' ) ){
-			    dynamic_sidebar( 'info-2-picture' );
-			    }
-		    ?>
-            <?php 
-		    if( is_active_sidebar( 'info-2-text' ) ){
-			    dynamic_sidebar( 'info-2-text' );
-			    }
-		    ?>
-        </div>
-        <div class="info-container-left">
-            <?php 
-		    if( is_active_sidebar( 'info-3-picture' ) ){
-			    dynamic_sidebar( 'info-3-picture' );
-			    }
-		    ?>
-            <?php 
-		    if( is_active_sidebar( 'info-3-text' ) ){
-			    dynamic_sidebar( 'info-3-text' );
-			    }
-		    ?>
-        </div>
+		<?php get_template_part('template-parts/content', 'info' ); ?>        
     </div>
+
+	<?php
+			endwhile;
+			wp_reset_postdata();
+		endif;
+		?>
 
     <div class="home-footer-image">
         <?php
