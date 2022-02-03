@@ -1,9 +1,9 @@
 <?php
 get_header(); 
 ?>
-<div>
+<div class="image-header">
     <?php
-		echo do_shortcode('[smartslider3 slider="2"]');
+		echo do_shortcode('[smartslider3 slider="5"]');
 	?>
 </div>
 <div class="container travel w-80">
@@ -35,7 +35,7 @@ get_header();
 
 <div class="footer-image">
         <?php
-		    echo do_shortcode('[smartslider3 slider="3"]');
+		    echo do_shortcode('[smartslider3 slider="8"]');
 		?>
     </div>
 

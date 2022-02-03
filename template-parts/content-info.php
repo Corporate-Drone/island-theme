@@ -20,7 +20,7 @@
 		    <?php the_title(); ?>
 	    </h2>
 	    <div>
-		    <?php the_excerpt(); ?>
+		    <?php the_content(); ?>
 	    </div>
     </div>
 </div>

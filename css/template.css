@@ -40,6 +40,45 @@ color: #0078D5;
     }
 }
 
+/************** HEADER IMAGE *****************/
+@media only screen and (max-width: 1005px) {
+    .image-header h1 {
+        font-size: 56px !important;
+    }
+    }
+
+    
+@media only screen and (max-width: 800px) {
+.image-header h1 {
+    font-size: 48px !important;
+}
+}
+
+@media only screen and (max-width: 700px) {
+    .image-header h1 {
+        font-size: 40px !important;
+    }
+    }
+
+@media only screen and (max-width: 600px) {
+    .image-header h1 {
+        font-size: 36px !important;
+    }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .image-header h1 {
+            font-size: 26px !important;
+        }
+        }
+
+@media only screen and (max-width: 300px) {
+    .image-header h1 {
+        font-size: 20px !important;
+    }
+}
+
+
 /************** HOME PAGE *****************/
 .home {
     height: 100%;
@@ -89,16 +128,6 @@ color: #0078D5;
     padding: 5rem;
     margin: 2rem;
 }
-
-/* .info-picture img {
-    position: absolute;
-    top: 25px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 90%;
-    height: 50%;
-} */
 
 .info-picture img {
     position: absolute;
@@ -171,7 +200,18 @@ color: #0078D5;
 
 /************** FAQ *****************/
 .faq h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .faq h1 {
+        font-size: 2rem;
+    }
+}
+
+/************** 404 PAGE *****************/
+.not-found {
+    height:70vh;
 }
 
 /************** FOOTER *****************/

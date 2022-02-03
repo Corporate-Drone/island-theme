@@ -2,7 +2,7 @@
 get_header(); 
 ?>
 
-<div class="container faq mb-5 mt-5 w-80">
+<div class="container faq mb-5 mt-5 w-50">
     <h1 class="fw-bold mb-5">Frequently asked questions</h1>
     <?php
 		$args = array(
