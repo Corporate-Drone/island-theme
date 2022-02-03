@@ -49,9 +49,11 @@
       <!-- Section: CTA -->
       <section class="">
         <p class="d-flex justify-content-center align-items-center">
+        <a href='https://www.expedia.com/'>
           <button type="button" class="btn btn-outline-dark btn-rounded">
             Book a trip
           </button>
+              </a>
         </p>
       </section>
       <!-- Section: CTA -->
