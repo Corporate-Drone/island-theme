@@ -16,10 +16,12 @@ This theme is based on a prototype made for the C856 User Experience Design clas
 > The Tanitian government would like you to spend no more than one month designing a new website that will increase tourism on the island of Taniti and provide a welcoming experience for prospective tourists.
 
 ## Wireframe
-The wireframe was made with [Figma](https://www.figma.com/file/HRkLasFykMNk1gG3aPAFXs/Wireframing-(Copy)?node-id=77%3A432).
+**Task 1:** Create a low-fidelity wireframe showing the suggested flow of your new design for the Tanitian website.
+The wireframe was made with [Figma](https://www.figma.com/proto/HRkLasFykMNk1gG3aPAFXs/Wireframing-(Copy)?node-id=434290%3A760&scaling=min-zoom&page-id=77%3A432&starting-point-node-id=434280%3A608&hide-ui=1).
 ![wireframe](https://i.imgur.com/Wf3Kiqp.png)
 
 ## Prototype
+**Task 2:** Create an interactive prototype for the Tanitian website that reflects your wireframe design.
 The theme is based on the prototype made with [Figma](https://www.figma.com/proto/IqT0i0JOUz33OYMnH5NQ2B/Taniti-Prototype?node-id=434373%3A891&scaling=min-zoom&page-id=434373%3A728&starting-point-node-id=434373%3A891&hide-ui=1).
 
 
@@ -27,11 +29,11 @@ The theme is based on the prototype made with [Figma](https://www.figma.com/prot
 All of the information blocks are made with Posts on WordPress. 
 ![admin-page](https://i.imgur.com/2yjJHI9.png)
 
-Users can pick which side of the picture they want the information to be on by choosing Left Side or Right Side in the categories section of the post.
-![info-post](https://i.imgur.com/1Pl0oHc.png)
+### Users can pick which side of the picture they want the information to be on by choosing Left Side or Right Side in the categories section of the post.
+![info-post](https://i.imgur.com/1Pl0oHc.png)  
 ![info](https://i.imgur.com/bnj1L8l.png)
 
-Optional image captions will be displayed on the poloroid.
-![theme](https://i.imgur.com/mEOXK7b.png)
+### Optional image captions will be displayed on the poloroid.
+![theme](https://i.imgur.com/mEOXK7b.png)  
 ![theme](https://i.imgur.com/wWIOUmf.png)
 
